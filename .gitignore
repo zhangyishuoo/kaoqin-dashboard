@@ -1,0 +1,15 @@
+# 本地产物 / 源数据，不进仓库
+*.xlsx
+*.xls
+*.pdf
+*.pptx
+*.zip
+build_kaoqin.py
+.workbuddy/
+site/../.workbuddy/
+# 密钥与配置，绝不上传
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
